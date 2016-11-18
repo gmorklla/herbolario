@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Rincón Herbolario - Tu opción natural</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/principal.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900" rel="stylesheet">
+</head>
+
+<body>
+    <header class="container-fluid">
+        <img class="col-xs-offset-0 col-md-offset-1" src="imagenes/herbolario-logo.png" alt="Rincón Herbolario Logotipo">
+    </header>
+    <div class="subheader container-fluid">
+        <img src="imagenes/farmacias-logo.png" alt="Farmacias Similares Logotipo">
+    </div>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="entrada noPadding col-xs-12 col-md-4 col-md-offset-1 hidden-xs hidden-sm">
+                <img src="imagenes/hojas-decorativas.png" alt="Decorativo">
+                <p>Una <span>nueva oportunidad</span> para sanar a traves de la <span>naturaleza</span></p>
+                <img class="videos" src="imagenes/video.png" alt="Video">
+                <img class="videos" src="imagenes/video-shadow.png" alt="Decorativo" style="margin-top: 20px;">
+            </div>
+            <div class="producto col-md-2 col-xs-12">
+                <img class="productoBase hidden-md hidden-lg" src="imagenes/base.jpg" alt="">
+                <p class="text-center"><img src="imagenes/productos/G_2437.png" alt=""></p>
+                <img class="productDecora animRotate hidden-sm hidden-xs" src="imagenes/hojas-decorativas-2.png" alt="Decorativo">
+            </div>
+            <div class="info-content col-md-4 col-xs-12">
+                <div class="info hidden-sm hidden-xs">
+                    <div><img src="imagenes/info-back-top.png" alt=""></div>
+                    <div class="info-center">
+                        <p>LEPIDIUM LATIFOLIUM</p>
+                        <p>SOLIDAGO VIRGAUREA</p>
+                        <p>CALLUNA VULGARIS</p>
+                    </div>
+                    <div><img src="imagenes/info-back-bottom.png" alt=""></div>
+                </div>
+                <p class="text-center"><img class="animRevolotea" style="transform: rotate(45deg);" src="imagenes/mariposa.png" alt="Decorativo"></p>
+            </div>
+        </div>
+        <div class="arrows hidden-xs hidden-sm">
+            <img class="prev" src="imagenes/prev.png" alt="Anterior">
+            <img class="next" src="imagenes/next.png" alt="Siguiente">
+        </div>
+        <div class="hidden-lg hidden-md">
+            <button type="button" class="btn btn-default btn-mobile btn-informacion" aria-label="Info" data-toggle="modal" data-target="#myModal">
+                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-mobile btn-prev" aria-label="Left Align">
+                <span class="glyphicon glyphicon-circle-arrow-left" aria-hidden="true"></span>
+            </button>
+            <button type="button" class="btn btn-default btn-mobile btn-next" aria-label="Left Align">
+                <span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true"></span>
+            </button>
+        </div>
+    </main>
+    <footer>
+        <p class="logo hidden-md hidden-lg">
+            <img style="max-width: 90%; margin-bottom: 10px;" class="col-xs-offset-0 col-md-offset-1" src="imagenes/herbolario-logo.png" alt="Rincón Herbolario Logotipo">
+        </p>
+        <p>© Copyright 2016. Farmacias de Similares S.A. de C.V.</p>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> INGREDIENTES</h4>
+                </div>
+                <div class="modal-body">
+                    <ul class="list-group">
+                        <li class="list-group-item">LEPIDIUM LATIFOLIUM</li>
+                        <li class="list-group-item">SOLIDAGO VIRGAUREA</li>
+                        <li class="list-group-item">CALLUNA VULGARIS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/easing/EasePack.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
