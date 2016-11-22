@@ -1,0 +1,51 @@
+{
+    "productos": [
+    {
+        "nombreProducto": "30-C ARCTIUM LAPPA/ VIOLA TRICOLOR/POLYPODIUM LEUCATOMOS CAPSULAS",
+        "idProducto"    : "2594",
+        "funcion"       : "Para un piel sana y libre de imperfecciones",
+        "urlImagen"     : ["imagenes/productos/G_2594.png"],
+        "urlImagenM"     : ["imagenes/productos/G_2594_M.png"],
+        "indice"        : 1
+    },
+{
+        "nombreProducto": "CASTAÑA DE INDIAS CAP",
+        "idProducto"    : "530",
+        "funcion"       : "Para el tratamiento de piernas cansadas y varices",
+        "urlImagen"     : ["imagenes/productos/G_530.png"],
+        "urlImagenM"     : ["imagenes/productos/G_530_M.png"],
+        "indice"        : 2
+    },    
+    {
+        "nombreProducto": "LEPIDIUM LATIFOLIUM (ROMPEPIEDRAS) /CALLUNA VULGARIS (BREZO COMUN) /SOLIDAGO VIRGAUREA (VARA DE ORO)",
+        "idProducto"    : "2437",
+        "funcion"       : "Previene la formación de los cálculos renales",
+        "urlImagen"     : ["imagenes/productos/G_2437.png"],
+        "urlImagenM"     : ["imagenes/productos/G_2437_M.png"],
+        "indice"        : 3
+    },
+    {
+        "nombreProducto": "ARCTOSTAPHYLOS UVA-URSI (GAYUBA) / CALLUNA VULGARIS (BREZO)/ ORTHOSIPHON STAMINEUS (ORTHOSIFON)",
+        "idProducto"    : "2423",
+        "funcion"       : "Reduce las molestias de la infección urinaria",
+        "urlImagen"     : ["imagenes/productos/G_2423.png"],
+        "urlImagenM"     : ["imagenes/productos/G_2423_M.png"],
+        "indice"        : 4
+    },
+    {
+        "nombreProducto": "OLISOR OLEA EUROPAEA SUSPENSION",
+        "idProducto"    : "2596",
+        "funcion"       : "Disminuye su presión arterial",
+        "urlImagen"     : ["imagenes/productos/G_2596.png"],
+        "urlImagenM"     : ["imagenes/productos/G_2596_M.png"],
+        "indice"        : 5
+    },
+    {
+        "nombreProducto": "VITIS VINIFERA (UVA) / TOCOFERSOLAN (VITAMINA E) CAP",
+        "idProducto"    : "2371",
+        "funcion"       : "Previene y controla colesterol y triglicéridos",
+        "urlImagen"     : ["imagenes/productos/G_2371.png"],
+        "urlImagenM"     : ["imagenes/productos/G_2371_M.png"],
+        "indice"        : 6
+    }]
+}

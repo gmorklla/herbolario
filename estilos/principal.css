@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
-    font-size: 1em;    
+    font-size: 1em;
 }
 
 body {
@@ -14,13 +14,13 @@ body {
 }
 
 header {
-	background-color: white;
+    background-color: white;
     width: 100%;
     height: 100px;
 }
 
 header img {
-	max-width: 100%;
+    max-width: 100%;
     max-height: 75%;
     margin: 15px 0 0 4%;
 }
@@ -34,7 +34,7 @@ header img {
 }
 
 .subheader {
-	margin-top: 20px;
+    margin-top: 20px;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100 */
     background: -moz-linear-gradient(right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     /* FF3.6-15 */
@@ -49,7 +49,7 @@ header img {
 }
 
 .subheader img {
-	max-width: 100%;
+    max-width: 100%;
     max-height: 75%;
     margin: 8px auto;
     float: right;
@@ -60,7 +60,7 @@ header img {
     color: white;
     height: 120px;
     line-height: 120px;
-    position: absolute;
+    margin-top: 30px;
 }
 
 .entrada img {
@@ -93,22 +93,6 @@ header img {
     font-weight: 900;
 }
 
-.producto {
-	height: 463px;
-    margin-bottom: 80px;
-}
-
-.producto p {
-	margin-top: 70px;
-}
-
-.producto img {
-    width: 100%;
-    height: auto;
-    max-width: 170px;
-    max-height: 463px;
-}
-
 .productDecora {
     position: relative;
     top: -350px;
@@ -116,12 +100,12 @@ header img {
 }
 
 .productoBase {
-	max-width: 125% !important;
-	width: 110% !important;
-	z-index: -1;
-	position: absolute;
-	top: 473px;
-	left: -15px;
+    max-width: 125% !important;
+    width: 110% !important;
+    z-index: -1;
+    position: absolute;
+    top: 405px;
+    left: -15px;
 }
 
 .info-content {
@@ -133,6 +117,7 @@ header img {
 .info {
     width: 100%;
     min-height: 300px;
+    z-index: 10;
 }
 
 .info img {
@@ -146,7 +131,8 @@ header img {
     background-size: 100%;
 }
 
-.info-center p, .info-sm p {
+.info-center p,
+.info-sm p {
     padding: 0;
     margin: 0;
     text-align: center;
@@ -154,9 +140,9 @@ header img {
 }
 
 .info-sm div {
-	width: 100%;
-	height: 100%;
-	padding-top: 15px;
+    width: 100%;
+    height: 100%;
+    padding-top: 15px;
 }
 
 .info-sm {
@@ -193,41 +179,42 @@ header img {
 }
 
 .arrows {
-	width: 100%;
-	position: absolute;	
-	top: 80%;
-	left: 0;
+    width: 100%;
+    position: absolute;
+    top: 80%;
+    left: 0;
 }
 
 .arrows img {
-	width: 70px;
-	height: 70px;
+    width: 70px;
+    height: 70px;
 }
 
 .prev {
-	float: left;
+    float: left;
 }
 
 .next {
-	float: right;
+    float: right;
 }
 
 footer {
-	width: 100%;
-	height: auto;
-	margin-top: 60px;
-	background-color: #e96c12;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    background-color: #e96c12;
 }
 
 footer p {
-	color: white;
-	text-align: center;
-	margin-bottom: 0;
-	font-size: 0.8em;
-	padding: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 0.8em;
+    padding: 10px;
 }
- footer .logo {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100 */
+
+footer .logo {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100 */
     background: -moz-linear-gradient(bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 100%);
     /* FF3.6-15 */
     background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 100%);
@@ -235,78 +222,141 @@ footer p {
     background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
-    /* IE6-9 */ 	
- }
+    /* IE6-9 */
+}
 
 .btn-informacion {
-	border-top-left-radius: 0 !important;
-	position: fixed;
-	top: 80%;
-	left: 80%;
-	font-size: 1.2em;
-	color: white;
-	background-color: #08f686 !important;
-	opacity: 0.8;
-	-webkit-box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
-	-moz-box-shadow:    5px 5px 15px 0px rgba(50, 50, 50, 0.45);
-	box-shadow:         5px 5px 15px 0px rgba(50, 50, 50, 0.45);	
+    border-top-left-radius: 0 !important;
+    position: fixed;
+    top: 80%;
+    left: 80%;
+    font-size: 1.2em;
+    color: white;
+    background-color: #08f686 !important;
+    opacity: 0.8;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
+    -moz-box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
+    box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
+    z-index: 10;
+}
+
+.btn-video {
+    border-top-right-radius: 0 !important;
+    font-size: 1.2em;
+    color: white;
+    background-color: #ffc10e !important;
+    opacity: 1;
+    z-index: 0;
 }
 
 .btn-prev {
-	border-top-left-radius: 0 !important;
-	border-bottom-left-radius: 0 !important;
-	position: fixed;
-	top: 50%;
-	left: 0;
-	font-size: 1.7em;
-	color: white;
-	background-color: #ffc10e !important;
-	opacity: 0.8;
-	-webkit-box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
-	-moz-box-shadow:    5px 5px 15px 0px rgba(50, 50, 50, 0.45);
-	box-shadow:         5px 5px 15px 0px rgba(50, 50, 50, 0.45);	
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    position: relative;
+    top: -130px;
+    left: -15px;
+    font-size: 1.7em;
+    color: white;
+    background-color: #ffc10e !important;
+    opacity: 0.8;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
+    -moz-box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
+    box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
+    z-index: 20;
 }
 
 .btn-next {
-	border-top-right-radius: 0 !important;
-	border-bottom-right-radius: 0 !important;
-	position: fixed;
-	top: 50%;
-	right: 0;
-	font-size: 1.7em;
-	color: white;
-	background-color: #ffc10e !important;
-	opacity: 0.8;
-	-webkit-box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
-	-moz-box-shadow:    5px 5px 15px 0px rgba(50, 50, 50, 0.45);
-	box-shadow:         5px 5px 15px 0px rgba(50, 50, 50, 0.45);
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    position: relative;
+    top: -130px;
+    left: 0;
+    font-size: 1.7em;
+    color: white;
+    background-color: #ffc10e !important;
+    opacity: 0.8;
+    -webkit-box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
+    -moz-box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
+    box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.45);
+    z-index: 21;
 }
 
-.btn-prev:hover, .btn-next:hover, .btn-informacion:hover { color: white !important; opacity: 1; }
+.btn-prev:hover,
+.btn-next:hover,
+.btn-informacion:hover {
+    color: white !important;
+    opacity: 1;
+}
+
+.btn-default.focus,
+.btn-default:focus,
+.btn-default:hover {
+    color: white !important;
+    opacity: 1;
+}
 
 .btn-mobile {
-	border-radius: 80px;	
-	height: 50px;
-	width: 50px;
-	outline: none !important;
-	border-color: transparent !important;
+    border-radius: 80px;
+    height: 50px;
+    width: 50px;
+    outline: none !important;
+    border-color: transparent !important;
 }
 
 .modal-content {
-	background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .modal-header {
-	border-bottom: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .modal-title {
-	color: #006300;
+    color: #006300;
+}
+
+.modal.in .modal-dialog {
+    -webkit-transform: translate(0, 25%);
+    -ms-transform: translate(0, 25%);
+    -o-transform: translate(0, 25%);
+    transform: translate(0, 25%);
 }
 
 .list-group-item {
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255, 255, 255, 0.5);
     color: #006300;
+}
+
+.funcion {
+    font-size: 1.2em;
+    width: 100%;
+    font-family: 'Shrikhand', cursive;
+    color: #3e683b;
+    text-shadow: 2px 2px 0px rgba(140, 222, 0, 1);
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    text-align: center;
+    z-index: 1;
+}
+
+#producto {
+    max-width: 100%;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table-striped>tbody>tr:nth-of-type(even) {
+	background-color: #9dc44c;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #ebe171;
+}
+
+th {
+	color: #3e683b;
 }
 
 /* --------- Anim spin --------- */
@@ -350,34 +400,53 @@ footer p {
 
 /* --------- Anim --------- */
 
+@media (min-width: 768px) {
+    body {
+        background-size: 100%;
+    }
+    .btn-mobile {
+        border-radius: 80px;
+        height: 80px;
+        width: 80px;
+    }
+    #producto {
+        margin-left: 18%;
+    }
+    .modal.in .modal-dialog {
+        -webkit-transform: translate(0, 50%);
+        -ms-transform: translate(0, 50%);
+        -o-transform: translate(0, 50%);
+        transform: translate(0, 50%);
+    }
+}
+
 @media (min-width: 992px) {
-	html,
-	body {
-	    overflow: hidden;
-	}	
+    html,
+    body {
+        overflow: hidden;
+    }
     html {
         font-size: 0.75em;
     }
-	body {
-	    background: url(../imagenes/back.jpg) no-repeat center center fixed;
-	    -webkit-background-size: cover;
-	    -moz-background-size: cover;
-	    -o-background-size: cover;
-	    background-size: cover;
-	}
-	header {
-		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100 */
-	    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-	    /* FF3.6-15 */
-	    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-	    /* Chrome10-25,Safari5.1-6 */
-	    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-	    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
-	    /* IE6-9 */
-	} 
+    body {
+        background: url(../imagenes/back.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    header {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0+100 */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1);
+        /* IE6-9 */
+    }
     .entrada {
-        margin-top: 15%;
         height: 80px;
         line-height: 80px;
         position: inherit;
@@ -400,26 +469,15 @@ footer p {
         margin-left: 15%;
         margin-top: 60px;
     }
-	.producto {
-		height: 463px;
-		margin: 0;
-	}
-	.producto p {
-		margin-top: 0;
-	}
-    .producto img {
-        max-width: 170px;
-        width: 120%;
-        margin-top: 90px;
-    }
     .productDecora {
-        top: -380px;
+        top: -145px;
+        width: 50% !important;
     }
     .info-content {
         position: inherit;
     }
     .info {
-        margin-top: 44%;
+        margin-top: 25%;
     }
     .animRevolotea {
         width: 70px;
@@ -427,40 +485,55 @@ footer p {
         top: -200px;
         left: 25%;
     }
-	footer {
-		bottom: 0;
-		width: 100%;
-		height: 40px;
-		position: fixed;
-		background-color: #e96c12;
-	}
-	footer p {
-		color: white;
-		text-align: center;
-		margin-top: 10px;
-		margin-bottom: 0;
-		font-size: 1em;
-		padding-top: 0;
-	}
-	.arrows {
-		top: 65%;
-		left: 69%;
-	}
-	.prev, .next {
-		float: none;
-	}
+    footer {
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        position: fixed;
+        background-color: #e96c12;
+    }
+    footer p {
+        color: white;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+        font-size: 1em;
+        padding-top: 0;
+    }
+    .arrows {
+        top: 65%;
+        left: 78%;
+    }
+    .prev,
+    .next {
+        float: none;
+    }
+    .funcion {
+        font-size: 1.5em;
+        position: relative;
+        top: 15px;
+        left: 0;
+        width: 100%;
+        font-family: 'Shrikhand', cursive;
+        color: #3e683b;
+        text-shadow: 2px 2px 0px rgba(140, 222, 0, 1);
+        z-index: 1;
+    }
+    #producto {
+        margin-left: -50px;
+        max-width: 400px;
+        z-index: 0;
+        margin-top: 5%;
+    }
+}
 
 @media (min-width: 1100px) {
     html {
         font-size: 0.85em;
     }
     .entrada {
-        margin-top: 15%;
         height: 80px;
         line-height: 80px;
-    }
-    .producto img {
-        margin-top: 45%;
     }
     .videos {
         width: 70% !important;
@@ -472,7 +545,7 @@ footer p {
         position: relative;
         top: -350px;
         left: 40%;
-    }    
+    }
 }
 
 @media (min-width: 1300px) {
@@ -480,7 +553,6 @@ footer p {
         font-size: 1em;
     }
     .entrada {
-        margin-top: 8%;
         height: 100px;
         line-height: 100px;
     }
@@ -492,5 +564,8 @@ footer p {
         width: 80px;
         position: relative;
         top: -350px;
-    }     
+    }
+    .arrows {
+        left: 79%;
+    }
 }
